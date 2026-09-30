@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "compass": {
+      "command": "python",
+      "args": ["-m", "compass.mcp.server"],
+      "env": {
+        "COMPASS_DB_PATH": "~/.compass/compass.db"
+      }
+    }
+  }
+}
